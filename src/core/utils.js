@@ -8,9 +8,9 @@ const os = require('os');
 module.exports = {
     repoPath: function() {
         if(isBrowser()) {
-            return "MyProjectName"
+            return "avalon-ec"
         } else {
-            return Path.join(os.homedir(), '.MyProjectName')
+            return Path.join(os.homedir(), '.avalon-ec')
         }
     },
     datastore: function(path) {

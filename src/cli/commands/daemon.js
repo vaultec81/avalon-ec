@@ -5,7 +5,7 @@ const os = require('os')
 const fs = require('fs')
 //const toUri = require('multiaddr-to-uri')
 const { getRepoPath } = require('../utils')
-const debug = require('debug')('MyProjectName:cli:daemon')
+const debug = require('debug')('avalon-ec:cli:daemon')
 
 module.exports = {
     command: 'daemon',
@@ -19,8 +19,8 @@ module.exports = {
 
     async handler(argv) {
         const { print, repoPath } = argv.ctx
-        print('Initializing MyProjectName daemon...')
-        print(`MyProjectName version: ${require('../../../package.json').version}`)
+        print('Initializing avalon-ec daemon...')
+        print(`avalon-ec version: ${require('../../../package.json').version}`)
         print(`System version: ${os.arch()}/${os.platform()}`)
         print(`Node.js version: ${process.versions.node}`)
 

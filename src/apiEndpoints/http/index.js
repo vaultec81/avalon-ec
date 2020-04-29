@@ -4,8 +4,8 @@ const Pino = require('hapi-pino')
 const toMultiaddr = require('uri-to-multiaddr')
 
 const errorHandler = require('./error-handler')
-const LOG = 'MyProjectName:http-api'
-const LOG_ERROR = 'MyProjectName:http-api:error'
+const LOG = 'avalon-ec:http-api'
+const LOG_ERROR = 'avalon-ec:http-api:error'
 
 
 function hapiInfoToMultiaddr (info) {

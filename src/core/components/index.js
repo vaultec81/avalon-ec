@@ -1,1 +1,5 @@
 exports.Config = require("./Config")
+exports.p2p = require('./p2p')
+exports.logger = require('./logger')
+exports.ChainEngine = require('./ChainEngine')
+exports.TransactionPool = require('./TransactionPool')

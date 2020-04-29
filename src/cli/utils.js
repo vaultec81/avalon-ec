@@ -35,8 +35,8 @@ print.columns = process.stdout.columns
 
 module.exports = {
     getRepoPath: () => {
-        if (process.env.MyProjectName_path) {
-            return process.env.MyProjectName_path
+        if (process.env.avalon_path) {
+            return process.env.avalon_path
         } else {
             return Utils.repoPath()
         }

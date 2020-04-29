@@ -117,6 +117,29 @@ class Config {
                 http: {
                     apiAddr: "/ip4/127.0.0.1/tcp/7001"
                 }
+            },
+            Database: {
+                "host": "127.0.0.1",
+                "user": "admin",
+                "password": "admin",
+                "database": "avalon"
+            },
+            node: {
+                owner: "",
+                owner_priv: ""
+            },
+            p2p: {
+                peers: [
+                    "ws://35.203.37.221:6001"
+                ]
+            },
+            chain: {
+                masterName: "dtube",
+                masterPub: 'uxJ25PC95cb3xjqacMrhmiv5ChKHJnVHzkwBnQFEXs6i',
+                "masterBalance": 10000000000,
+                originHash: "0000000000000000000000000000000000000000000000000000000000000035",
+                "block8ts": 1561389814000,
+                accountMaxLength: 50
             }
         };
 

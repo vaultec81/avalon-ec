@@ -1,5 +1,5 @@
 const debug = require('debug')('pinza:daemon')
-const Core = require('../core'); //MyProjectName client.
+const Core = require('../core'); //avalon-ec client.
 const Components = require('../core/components')
 const apiEndpoints = require('../apiEndpoints')
 

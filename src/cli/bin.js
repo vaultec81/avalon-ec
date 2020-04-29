@@ -16,7 +16,7 @@ process.once('unhandledRejection', (err) => {
 })
 
 const { print, getInstance, getRepoPath } = require('./utils')
-const debug = require('debug')('MyProjectName:cli')
+const debug = require('debug')('avalon-ec:cli')
 const cli = require('./')
 
 async function main() {
